@@ -1,11 +1,6 @@
-Aqui está um exemplo de um `README.md` impressionante, com formatação, emojis e sugestões de como adicionar imagens para deixá-lo visualmente atraente. Como o GitHub Markdown não suporta o upload direto de imagens, você precisará hospedar as imagens em um serviço como [Imgur](https://imgur.com/) ou [GitHub Issues](https://github.com) e usar os links no README.
 
 ```markdown
 # 🍕 Pizzaria Admin
-
-![Banner do Projeto](https://i.imgur.com/3QZJX9P.png)  
-*Gerencie sua pizzaria como um chef! 🧑‍🍳*
-
 Bem-vindo ao **Pizzaria Admin**, o sistema de administração perfeito para gerenciar sua pizzaria de forma eficiente e moderna. Com este projeto, você pode controlar pedidos, cardápio, clientes e muito mais, tudo em um só lugar! 🚀
 
 ---
@@ -94,15 +89,7 @@ pizzaria.admin/
 └── README.md             # Este arquivo
 ```
 
----
 
-## 🖼️ Capturas de Tela
-
-| Tela de Login | Cardápio Digital | Gestão de Pedidos |
-|---------------|------------------|-------------------|
-| ![Login](https://i.imgur.com/abc123.png) | ![Cardápio](https://i.imgur.com/xyz456.png) | ![Pedidos](https://i.imgur.com/def789.png) |
-
----
 
 
 
