@@ -61,6 +61,11 @@ function onSalvarClick() {
         alert("Por favor, preencha todos os campos e capture uma foto!");
         return;
     }
+    
+    if (valorImagem.length > 200000) {
+        alert("Imagem muito grande. Reduza a resolução ou tente novamente.");
+        return;
+    }
 
     var dados = {
         pizzaria: PIZZARIA_ID,
@@ -117,8 +122,10 @@ function onExcluirClick() {
 
 function tirarFoto() {
     navigator.camera.getPicture(onFotoSuccess, onFotoFail, {
-        quality: 50,
-        destinationType: Camera.DestinationType.DATA_URL
+        quality: 30,           // qualidade reduzida
+        destinationType: Camera.DestinationType.DATA_URL,
+        targetWidth: 200,        // resolução menor
+        targetHeight: 150        // resolução menor
     });
 }
 
