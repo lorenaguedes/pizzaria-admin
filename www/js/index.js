@@ -130,7 +130,7 @@ function tirarFoto() {
 }
 
 function onFotoSuccess(imageData) {
-    imagem.style.backgroundImage = "url('data:image/jpeg;base64," + imageData + "')";
+    imagem.style.backgroundImage = "url(data:image/jpeg;base64," + imageData + ")";
 }
 
 function onFotoFail(message) {
