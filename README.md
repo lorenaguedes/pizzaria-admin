@@ -39,7 +39,7 @@ Bem-vindo ao **Pizzaria Admin**, o sistema de administração perfeito para gere
 1. **Clone o repositório**:
 
    ```bash
-   git clone https://github.com/seu-usuario/pizzaria.admin.git
+   git clone https://github.com/lorenaguedes/pizzaria.admin.git
    cd pizzaria.admin
    ```
 
